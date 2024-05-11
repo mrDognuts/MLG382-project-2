@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 bitstampUSD_1-min_data_2012-01-01_to_2021-03-31.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
